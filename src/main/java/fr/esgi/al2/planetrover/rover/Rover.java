@@ -18,7 +18,7 @@ public class Rover {
     }
 
     public Rover() {
-        this.position = new Position(0,0);
+        this.position = new Position(0,0,0);
         this.orientation = Orientation.North;
         this.name = new Name("My Rover");
     }
