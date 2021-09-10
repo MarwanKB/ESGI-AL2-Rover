@@ -5,19 +5,19 @@ import fr.esgi.al2.planetrover.Name;
 
 public class Planet {
 
-    Integer dimension [] [];
+    Integer dimension [] [] [];
     final Name nomPlanet;
 
-    public Planet(Integer dimension[][], Name name){
+    public Planet(Integer dimension[][][], Name name){
         this.dimension = dimension;
         this.nomPlanet=name;
     }
 
-    public Integer[][] getDimension() {
+    public Integer[][][] getDimension() {
         return dimension;
     }
 
-    public void setDimension(Integer[][] dimension) {
+    public void setDimension(Integer[][][] dimension) {
         this.dimension = dimension;
     }
 
